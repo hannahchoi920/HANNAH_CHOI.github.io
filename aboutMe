@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>About Me</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- link the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css" />
+
+	<!-- link the webpage's JavaScript file -->
+	<script src="/script.js" defer>
+	</script>
+
+</head>
+
+<nav>
+	<ul>
+		<li>
+			<a href="index.html">Evergreen</a>
+		</li>
+		<div class="navRight">
+			<li>
+				<a href="aboutMe.html">About Me</a>
+			</li>
+			<li>
+				<a href="issues.html">Issues</a>
+			</li>
+			<li>
+				<a href="takeAction.html">Take Action</a>
+			</li>
+		</div>
+	</ul>
+</nav>
+
+<img id="me" src="assets/hannah.jpg" alt="picture of girl">
+
+   <p class="intro"><br>Hi! My name is Hannah and I am a rising junior attending Fort Lee High School. During my free time, I like to run, swim, bike, bake, and hang out with my sister. <br> <br> I am currently participating in the Girls Who Code SIP program. Using my skills of coding, I want to advocate a cleaner environment. Whenever I go to parks in my area or walk through the streets, I always see so much trash floating around. In addition to this, there are so many more problems within our environment, and in order to keep life on Earth, it is vital that we take action. A lot of environmental issues are caused by human activities and there are so many things we can do. </p>
+	
+
+
+  </body>
+</html>
