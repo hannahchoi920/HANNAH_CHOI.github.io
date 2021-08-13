@@ -1,1 +1,148 @@
+/*general*/
+
+/* navBar */
+a {
+  font-size: 1vw;
+  font-family: Gill Sans;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.2cm;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.5cm;
+  padding: 1cm;
+}
+li a:hover {
+  color: gray;
+}
+.navRight {
+  float: right;
+}
+/*flexboxContainer*/
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.flexItem {
+  flex-basis: 50%;
+  text-align: center;
+}
+h2 {
+  font-family: Verdana;
+  font-size: 1vw;
+  font-weight: normal;
+}
+
+.intro {
+  text-align: center;
+  color: #black;
+  font-size: 1vw;
+  font-family: Gill Sans;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.subtitle {
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font: 2vw Gill Sans;
+}
+
+
+/*index*/
+
+.mainpage {
+  background-image: url('assets/main.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  background-position: center;
+  padding: 350px;
+}
+/* header*/
+h1 {
+  color: #F7F3F5;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: Gill Sans;
+}
+#missionStatement {
+  text-align: left;
+  color: white;
+  font: 3vw Gill Sans;
+}
+/*factGenerator*/
+main {
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: center;
+  font-family: 'Overpass', sans-serif; 
+}
+#fact {
+  font-family: Gill Sans;
+  font-size: 1vw;
+  font-weight: normal;
+  color: forestgreen;
+}
+button {
+  background: forestgreen;
+  padding: 15px;
+  margin: 10px;
+  font-family: 'Gill Sans', serif;
+  font-size: 1.2em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+
+
+/*About Me*/
+#me {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* issues page image */
+#airPollution {
+  width: 90%;
+}
+#deforestation {
+  width: 90%;
+}
+#waterPollution {
+  width: 90%;
+}
+.img {
+  width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*takeAction page image*/
+#zeroWaste {
+  width: 90%
+}
+#water {
+  width: 90%
+}
+#recycling {
+  width: 90%
+}
+
+
+
+
+
 
